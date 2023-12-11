@@ -1,5 +1,7 @@
 ' - TestNave ----------------------------------------------
-' - 
+' https://tinyurl.com/yj2eauaa
+
+
 ' Incluimos el fichero con la definión de los sprites
 #INCLUDE "Nave.gdu.bas"
 #INCLUDE "Fuente.fnt.bas"
