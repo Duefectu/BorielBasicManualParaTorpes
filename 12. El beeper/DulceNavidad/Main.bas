@@ -34,6 +34,7 @@ DIM s AS String
 
 ' Borramos la pantalla
 CLS
+
 ' Imprimimos el título
 PRINT "Karaoke: Dulce Navidad"
 PRINT "----------------------"
