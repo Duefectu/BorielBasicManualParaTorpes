@@ -1,3 +1,6 @@
+' - Horizonte ---------------------------------------------
+' https://tinyurl.com/32kuypmb
+
 ' Declaramos dos variables para usar dentro de IM2CallMyRoutine
 ' Estas variables deben ser globales
 ' Contador para perder el tiempo
