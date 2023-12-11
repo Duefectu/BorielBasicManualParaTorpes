@@ -1,34 +1,4 @@
-' - Tiles Demo --------------------------------------------
-' https://tinyurl.com/3jx4ezxf
-
-Main()
-STOP
-
-' - Defines -----------------------------------------------
-#DEFINE PANTALLAS_MAX 1
-
-' - Includes ----------------------------------------------
-#INCLUDE <putchars.bas>
-#INCLUDE "Mapas.bas"
-#INCLUDE "Tiles.spr.bas"
-
-
-' - Subrutina principal -----------------------------------
-SUB Main()
-    DIM n AS UByte
-    
-    BORDER 1
-    PAPER 0
-    INK 7
-    BRIGHT 0
-    CLS
-    
-    FOR n = 0 TO PANTALLAS_MAX
-        DibujarPantalla(n)
-        PAUSE 0
-    NEXT n
-END SUB
-
+' - Gestión de mapas --------------------------------------
 
 ' - Dibuja una pantalla -----------------------------------
 ' Entradas:
@@ -69,3 +39,19 @@ SUB DibujarPantalla(pantalla AS UByte)
         ty = ty + 2
     NEXT y
 END SUB
+
+
+' - Obtiene el tile de una pantalla -----------------------
+' Parámetros:
+'   pantalla (UByte): Pantalla sobre la que obtener el tile
+'   x (UByte): Coordenada x (columna)
+'   y (UByte): Coordenada y (fila)
+' Devuelve:
+'   (UByte): Tile que se encuentra en la posición indicada
+FUNCTION ObtenerTile(pantalla as UByte, x AS UByte, y as UByte) AS UByte
+    DIM dir AS UByte
+    ' Dirección del tile (y*16)+x, solo que los tiles son 
+    ' de 16x16, así que hay que dividir x e y por dos.
+    dir=((y/2)*16)+(x/2)
+    RETURN Pantallas(pantalla,dir)
+END FUNCTION
