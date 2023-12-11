@@ -1,4 +1,5 @@
 ' - Conmutator --------------------------------------------
+' https://tinyurl.com/mr3ez7t5
 
 ' Declaramos la función GetSlot3
 DECLARE FUNCTION GetSlot3() AS UByte
