@@ -1,4 +1,5 @@
 ' - Demo128 -----------------------------------------------
+' https://tinyurl.com/55jh39x5
 ' - Módulo de juego ---------------------------------------
 ' Parametro1: 0 = Nueva partida, 1 = Continuar, 2 = Muerto
 ' Parametro2: No usado
