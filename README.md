@@ -5,6 +5,7 @@ El libro se puede adquirir en Amazon en formato digital, tapa dura o tapa blanda
 
 Los mecenas tienen derecho a la versión en PDF y EPUB: https://www.patreon.com/DuefectuCorp
 
+# ZX Basic Studio
 En la sección de "Releases" puedes encontrar la versión de ZX Basic Studio con soporte para Next y el editor de sprites: https://github.com/Duefectu/BorielBasicManualParaTorpes/releases
 
 Gracias por vuestro apoyo!
