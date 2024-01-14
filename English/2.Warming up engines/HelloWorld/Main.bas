@@ -1,5 +1,5 @@
 ' - HelloWorld --------------------------------------------
-' https://tinyurl.com/ys3w2nkx
+' http://tinyurl.com/32ttk46b
 
 Dim x, y AS UByte
 
