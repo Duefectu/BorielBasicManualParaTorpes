@@ -11,6 +11,7 @@ STOP
 ' - Doble buffer ------------------------------------------
 ' Si comentamos este define desactivamos el doble buffer
 #DEFINE DOUBLE_BUFFER
+#INCLUDE <retrace.bas>
 
 #IFDEF DOUBLE_BUFFER
     ' Si usamos doble buffer, incluimos las librerías
@@ -44,7 +45,6 @@ DIM Caminando AS UByte
 #INCLUDE <putchars.bas>
 #INCLUDE <scroll.bas>
 #INCLUDE <winscroll.bas>
-#INCLUDE <retrace.bas>
 ' Graficos
 #INCLUDE "Ingrid.spr.bas"
 #INCLUDE "Tiles.spr.bas"
