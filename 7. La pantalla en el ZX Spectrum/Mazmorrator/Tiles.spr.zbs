@@ -1,5 +1,6 @@
 {
   "ExportType": 6,
+  "ExportDataType": 0,
   "AutoExport": true,
   "ExportFilePath": "C:\\spectrum\\Mazmorrator\\Tiles.spr.bas",
   "LabelName": "Tiles_",
