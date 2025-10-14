@@ -5,12 +5,19 @@ El libro se puede adquirir en Amazon en formato digital, tapa dura o tapa blanda
 
 Los mecenas tienen derecho a la versión en PDF y EPUB: https://www.patreon.com/DuefectuCorp
 
+
 # ZX Basic Studio
 Las versiones descargables de ZX Basic Studio se han movido al GitHub de Boriel en https://github.com/boriel-basic/ZXBasicStudio/releases
 
 Gracias por vuestro apoyo!
 
 
+# Cambios en versiones nuevas del compilador
+Aquí comento los cambios críticos del compilador que pueden hacer que algún ejemplo no funcione.
+*Versión 1.18.3 y superiores**
+- El direccionamiento de los arrays y matrices ha cambiado, ahora el prefijo @ devuelve la dirección de la variable, no de los datos, por lo que para referirse al primer valor del array hay que usar "@miArray(0)" en vez de "@miArray"
+
+  
 # Fe de erratas
 En esta sección iré añadiendo los fallos o aclaraciones que vayan surgiendo. Gracias por informar de ellos.
 - Capítulo 12. El Beeper: En este capítulo se reporta erróneamente que el DO central tiene el valor de 12 para el tono, cuando en realidad debería ser 0, por lo que en los ejemplos del comando BEEP deberían restarse 12 unidades al valor del tono.
