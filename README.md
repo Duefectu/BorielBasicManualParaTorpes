@@ -23,3 +23,16 @@ En esta sección iré añadiendo los fallos o aclaraciones que vayan surgiendo. 
 - Capítulo 12. El Beeper: En este capítulo se reporta erróneamente que el DO central tiene el valor de 12 para el tono, cuando en realidad debería ser 0, por lo que en los ejemplos del comando BEEP deberían restarse 12 unidades al valor del tono.
 - Listado DBAdventure: En el fichero Main.bas la línea "#INCLUDE <retrace.bas>" debe moverse a la línea 14. Se ha actualizado el listado: https://github.com/Duefectu/BorielBasicManualParaTorpes/blob/main/7.%20La%20pantalla%20en%20el%20ZX%20Spectrum/DBAdventure/Main.bas
 - Página 102 (tapa blanda): En el consejo del tito Duefectu le sobra la tilde al "porqué". La forma correcta es "Lo vuelvo a recalcar porque es muy importante"
+- Página 599: Hay tres "qué" que deberían llevar tilde:
+```
+[...] es decir, qué
+pasa cuando un enemigo “me toca”, qué pasa si ataco y le doy con mi
+espada a un enemigo, o qué pasa si una flecha le da a un enemigo o a un
+interruptor, etc.
+```
+- Página 599: El primer párrafo de la sección **El mapa de memoria de nuestro juego** está cortado, debería ser:
+```
+Como ya he mencionado, es fundamental tener un mapa de memoria para
+saber dónde tenemos cada cosa, principalmente si son recursos
+externos a ZX Boriel Basic.
+```
