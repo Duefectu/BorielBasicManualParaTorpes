@@ -18,11 +18,12 @@ Aquí comento los cambios críticos del compilador que pueden hacer que algún e
 - El direccionamiento de los arrays y matrices ha cambiado, ahora el prefijo @ devuelve la dirección de la variable, no de los datos, por lo que para referirse al primer valor del array hay que usar "@miArray(0)" en vez de "@miArray"
 
   
-# Fe de erratas
+# Fe de erratas (tapa blanda)
 En esta sección iré añadiendo los fallos o aclaraciones que vayan surgiendo. Gracias por informar de ellos.
 - Capítulo 12. El Beeper: En este capítulo se reporta erróneamente que el DO central tiene el valor de 12 para el tono, cuando en realidad debería ser 0, por lo que en los ejemplos del comando BEEP deberían restarse 12 unidades al valor del tono.
 - Listado DBAdventure: En el fichero Main.bas la línea "#INCLUDE <retrace.bas>" debe moverse a la línea 14. Se ha actualizado el listado: https://github.com/Duefectu/BorielBasicManualParaTorpes/blob/main/7.%20La%20pantalla%20en%20el%20ZX%20Spectrum/DBAdventure/Main.bas
 - Página 102 (tapa blanda): En el consejo del tito Duefectu le sobra la tilde al "porqué". La forma correcta es "Lo vuelvo a recalcar porque es muy importante"
+- Página 185: Error tipográfico en el punto "Example of usage"
 - Página 599: Hay tres "qué" que deberían llevar tilde:
 ```
 [...] es decir, qué
