@@ -35,6 +35,7 @@ NEXT n
 '   banco (UByte): Banco a colocar en el slot 3 (0-7)
 SUB FASTCALL SetSlot3(banco AS UByte)
 ASM
+    and %00000111   ; Limitamos los posibles valores del slot
     ld d,a          ; Con FASTCALL banco se coloca en A
     ld a,($5b5c)    ; Leemos BANKM
     and %11111000   ; Reseteamos los 3 primeros bits
