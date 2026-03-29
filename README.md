@@ -26,6 +26,7 @@ En esta sección iré añadiendo los fallos o aclaraciones que vayan surgiendo. 
 - Página 180: Error ortográfico en "Optimization: “3”, para que se **optimice** bien el código"
 - Página 180: Error ortográfico en "Ahora ya tenemos nuestro proyecto creado y configurado, **así** que vamos a empezar definiendo nuestros sprites."
 - Página 185: Error tipográfico en el punto "Example of usage"
+- Página 455: Falta una tilde en "compás".
 - Página 599: Hay tres "qué" que deberían llevar tilde:
 ```
 [...] es decir, qué
